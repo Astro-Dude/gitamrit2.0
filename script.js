@@ -26,7 +26,7 @@ class ChatUI {
             this.addMessage(response, 'bot');
         } catch (error) {
             console.error('Error:', error);
-            this.addMessage('Sorry, there was an error processing your request. Please try again.', 'bot');
+            this.addMessage('Sorry, there was an error processing your request. Please try again or visit <a href="https://astro-dude.github.io/gitamrit/">आधारभूत गीतामृत</a>.', 'bot');
         } finally {
             this.sendButton.disabled = false;
         }
