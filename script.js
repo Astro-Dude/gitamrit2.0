@@ -89,6 +89,10 @@ class ChatUI {
         });
 
         if (!response.ok) {
+            if (response.status === 429) { // Assuming 429 is the status code for limit reached
+                alert('API request limit reached. Please try again later or visit https://astro-dude.github.io/gitamrit/.');
+                throw new Error('API request limit reached');
+            }
             throw new Error('API request failed');
         }
 
