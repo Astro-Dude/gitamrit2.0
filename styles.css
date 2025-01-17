@@ -126,3 +126,95 @@ footer {
     color: #666;
     font-size: 0.9rem;
 }
+
+@media (max-width: 768px) {
+    .chat-container {
+        margin-top: 1rem;
+    }
+
+    .chat-messages {
+        height: 430px;
+    }
+
+    .message {
+        padding: 0.75rem;
+        font-size: 1rem;
+    }
+
+    .input-area {
+        flex-direction: column;
+    }
+
+    textarea {
+        min-height: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    .sanskrit {
+        font-size: 2.5rem;
+    }
+
+    .sanskrit-subtitle {
+        font-size: 1.2rem;
+    }
+
+    .tagline {
+        font-size: 1rem;
+    }
+
+    .chat-container {
+        margin-top: 1rem;
+    }
+
+    .chat-messages {
+        height: 500px;
+    }
+
+    .message {
+        padding: 0.5rem;
+        font-size: 0.8rem;
+    }
+
+    .input-area {
+        padding: 0.5rem;
+    }
+
+    textarea {
+        min-height: 80px;
+    }
+
+    button {
+        padding: 0.5rem 0.75rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .sanskrit {
+        font-size: 2rem;
+    }
+
+    .sanskrit-subtitle {
+        font-size: 1rem;
+    }
+
+    .tagline {
+        font-size: 0.9rem;
+    }
+
+    .chat-messages {
+        height: 500px;
+    }
+
+    .message {
+        padding: 0.5rem;
+    }
+
+    textarea {
+        min-height: 70px;
+    }
+
+    button {
+        padding: 0.5rem 0.5rem;
+    }
+}
